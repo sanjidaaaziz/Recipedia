@@ -7,7 +7,7 @@ A modern recipe finder web application built with React, TypeScript, and Redux. 
 
 ## Live Link
 
-🔗
+🔗 https://recipedia-rho.vercel.app/
 
 ## 🚀 Features
 
