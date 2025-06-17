@@ -37,10 +37,10 @@ A modern recipe finder web application built with React, TypeScript, and Redux. 
 
  1. Clone the Repository
 
-   ```bash
-   git clone https://github.com/sanjidaaaziz/Recipedia.git
-   cd Recipedia
-   ```
+    ```bash
+    git clone https://github.com/sanjidaaaziz/Recipedia.git
+    cd Recipedia
+    ```
 
  2. Install Dependencies
 
@@ -55,6 +55,7 @@ A modern recipe finder web application built with React, TypeScript, and Redux. 
     - Create a free developer account on Edamam.
     - Get your Application ID and Application Key.
     - Create a .env file in the root of your project and add the following:
+
 
     ```bash
     VITE_EDAMAM_APP_ID=your_app_id_here
