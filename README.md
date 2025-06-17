@@ -33,46 +33,49 @@ A modern recipe finder web application built with React, TypeScript, and Redux. 
 
 ## 🏃‍♂ Getting Started
 
+### Installation
+
  1. Clone the Repository
 
-```bash
-git clone https://github.com/sanjidaaaziz/Recipedia.git
-cd Recipedia
-```
+   ```bash
+   git clone https://github.com/sanjidaaaziz/Recipedia.git
+   cd Recipedia
+   ```
 
  2. Install Dependencies
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
  3. API Setup
 
-To fetch recipes from the [Edamam Recipe API](https://developer.edamam.com/), you'll need to set up your API credentials:
+    To fetch recipes from the [Edamam Recipe API](https://developer.edamam.com/), you'll need to set up your API credentials:
 
--Create a free developer account on Edamam.
--Get your Application ID and Application Key.
--Create a .env file in the root of your project and add the following:
+    - Create a free developer account on Edamam.
+    - Get your Application ID and Application Key.
+    - Create a .env file in the root of your project and add the following:
 
-```bash
-VITE_EDAMAM_APP_ID=your_app_id_here
-VITE_EDAMAM_APP_KEY=your_app_key_here
-VITE_EDAMAM_USER_ID=your_user_id_here
-```
+    ```bash
+    VITE_EDAMAM_APP_ID=your_app_id_here
+    VITE_EDAMAM_APP_KEY=your_app_key_here
+    VITE_EDAMAM_USER_ID=your_user_id_here
+    ```
 
-### 4. Start the Development Server
+4. Start the Development Server
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
-Open your browser and visit
+   Open your browser and visit
 
-```bash
-http://localhost:5173
-```
+   ```bash
+   http://localhost:5173
+   ```
 
 ## 📦 Project Structure
+   
 ```
 src/
 ├── components/          # Reusable UI components
@@ -86,6 +89,7 @@ src/
 ├── types/               # TypeScript type definitions
 └── App.tsx              # Root component
 ```
+
 ## 🔑 Key Components
 
 - _RecipeCard_: Displays recipe preview with image and basic info
