@@ -2,6 +2,9 @@
 
 A modern recipe finder web application built with React, TypeScript, and Redux. Discover delicious recipes based on ingredients, dietary preferences, and meal planning needs.
 
+![cover](https://github.com/user-attachments/assets/75e97b67-76f4-48ec-a7dc-bcd5e5f51174)
+
+
 ## Live Link
 
 🔗
@@ -33,8 +36,8 @@ A modern recipe finder web application built with React, TypeScript, and Redux. 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/recipedia.git
-cd recipedia
+git clone https://github.com/sanjidaaaziz/Recipedia.git
+cd Recipedia
 ```
 
 ### 2. Install Dependencies
@@ -71,7 +74,7 @@ http://localhost:5173
 ```
 
 ## 📦 Project Structure
-
+```
 src/
 ├── components/ # Reusable UI components
 │ ├── common/ # Shared components (Button, Loader, etc.)
@@ -83,7 +86,7 @@ src/
 ├── store/ # Redux store and feature slices
 ├── types/ # TypeScript type definitions
 └── App.tsx # Root component
-
+```
 ## 🔑 Key Components
 
 - _RecipeCard_: Displays recipe preview with image and basic info
