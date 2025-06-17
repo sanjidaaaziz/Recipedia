@@ -56,8 +56,7 @@ A modern recipe finder web application built with React, TypeScript, and Redux. 
     - Get your Application ID and Application Key.
     - Create a .env file in the root of your project and add the following:
 
-
-    ```bash
+     ```typescript
     VITE_EDAMAM_APP_ID=your_app_id_here
     VITE_EDAMAM_APP_KEY=your_app_key_here
     VITE_EDAMAM_USER_ID=your_user_id_here
