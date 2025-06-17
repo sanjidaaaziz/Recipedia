@@ -54,7 +54,7 @@ A modern recipe finder web application built with React, TypeScript, and Redux. 
 
     - Create a free developer account on Edamam.
     - Get your Application ID and Application Key.
-    - Create a .env file in the root of your project and add the following:
+    - Create a .env file in the root of your project and add the following
 
      ```typescript
     VITE_EDAMAM_APP_ID=your_app_id_here
