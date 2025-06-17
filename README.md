@@ -59,6 +59,7 @@ Create a .env file in the root of your project and add the following:
 ```bash
 VITE_EDAMAM_APP_ID=your_app_id_here
 VITE_EDAMAM_APP_KEY=your_app_key_here
+VITE_EDAMAM_USER_ID=your_user_id_here
 ```
 
 ### 4. Start the Development Server
@@ -76,16 +77,16 @@ http://localhost:5173
 ## 📦 Project Structure
 ```
 src/
-├── components/ # Reusable UI components
-│ ├── common/ # Shared components (Button, Loader, etc.)
-│ ├── layout/ # Layout elements (Header, Footer)
-│ ├── mealPlanner/ # Components related to meal planning
-│ └── recipe/ # Recipe display and interaction components
-├── pages/ # Page components (Home, RecipeDetails, etc.)
-├── services/ # API interaction services
-├── store/ # Redux store and feature slices
-├── types/ # TypeScript type definitions
-└── App.tsx # Root component
+├── components/          # Reusable UI components
+│   ├── common/          # Shared components (Button, Loader, etc.)
+│   ├── layout/          # Layout elements (Header, Footer)
+│   ├── mealPlanner/     # Components related to meal planning
+│   └── recipe/          # Recipe display and interaction components
+├── pages/               # Page components (Home, RecipeDetails, etc.)
+├── services/            # API interaction services
+├── store/               # Redux store and feature slices
+├── types/               # TypeScript type definitions
+└── App.tsx              # Root component
 ```
 ## 🔑 Key Components
 
