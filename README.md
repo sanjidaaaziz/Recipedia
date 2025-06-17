@@ -33,28 +33,26 @@ A modern recipe finder web application built with React, TypeScript, and Redux. 
 
 ## 🏃‍♂ Getting Started
 
-### 1. Clone the Repository
+ 1. Clone the Repository
 
 ```bash
 git clone https://github.com/sanjidaaaziz/Recipedia.git
 cd Recipedia
 ```
 
-### 2. Install Dependencies
+ 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. API Setup
+ 3. API Setup
 
 To fetch recipes from the [Edamam Recipe API](https://developer.edamam.com/), you'll need to set up your API credentials:
 
-Create a free developer account on Edamam.
-
-Get your Application ID and Application Key.
-
-Create a .env file in the root of your project and add the following:
+-Create a free developer account on Edamam.
+-Get your Application ID and Application Key.
+-Create a .env file in the root of your project and add the following:
 
 ```bash
 VITE_EDAMAM_APP_ID=your_app_id_here
